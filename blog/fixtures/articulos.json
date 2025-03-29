@@ -1,0 +1,35 @@
+[
+    {
+        "model": "blog.articulo",
+        "pk": 1,
+        "fields": {
+            "titulo": "Aplicaciones online de apoyo al psicólogo",
+            "contenido": "Las aplicaciones online de apoyo al psicólogo han ganado terreno como aliadas en la práctica clínica, investigación y gestión administrativa.\n\n### Herramientas recomendadas:\n- **CBT-i Coach**: Manejo del insomnio.\n- **3D Brain**: Visualización del cerebro en 3D.\n\n![Ejemplo de App](https://mobile.va.gov/sites/default/files/images/cbt-i-coach-app-icon_0_0.png)",
+            "fecha_publicacion": "2024-03-01",
+            "imagen": "imagenes/art1.jpg",
+            "video": "videos/demo1.mp4"
+        }
+    },
+    {
+        "model": "blog.articulo",
+        "pk": 2,
+        "fields": {
+            "titulo": "CBT-i Coach: Innovación digital para tratar el insomnio",
+            "contenido": "CBT-i Coach es una herramienta diseñada para ayudar en el tratamiento del insomnio mediante técnicas basadas en terapia cognitivo-conductual.\n\n### Características principales:\n1. Registro del sueño.\n2. Técnicas de relajación.\n3. Seguimiento del progreso.",
+            "fecha_publicacion": "2024-03-05",
+            "imagen": "imagenes/cbt-i.png",
+            "video": null
+        }
+    },
+    {
+        "model": "blog.articulo",
+        "pk": 3,
+        "fields": {
+            "titulo": "3D Brain: Explorando el cerebro de manera interactiva",
+            "contenido": "Una herramienta innovadora que permite explorar el cerebro en 3D de manera detallada y accesible.\n\n- **Corteza prefrontal**: Toma de decisiones.\n- **Hipocampo**: Memoria y aprendizaje.\n\n[Ver más información](https://www.brainfacts.org/3d-brain).",
+            "fecha_publicacion": "2024-03-10",
+            "imagen": "imagenes/3d-brain.jpg",
+            "video": "videos/demo2.mp4"
+        }
+    }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicología Digital</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    {% load static %}
+</head>
+<body class="bg-pink-50 font-sans min-h-screen flex flex-col">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Membrete -->
+                <div class="flex items-center space-x-4">
+                    <div class="text-lg font-serif text-pink-700">
+                        <p>Universidad Yacambú</p>
+                        <p>Marzo 2025</p>
+                    </div>
+                    <a href="{% url 'index' %}">
+                        <img src="{% static 'logo.jpeg' %}" alt="Logo Universidad Yacambú" class="w-12 h-12 rounded-full border border-pink-300 shadow-sm">
+                    </a>
+                </div>
+                <!-- Enlaces de navegación -->
+                <div class="space-x-6">
+                    <a href="{% url 'seguir_blog' %}" class="text-pink-500 hover:underline"> 💌 Seguir Blog</a>
+                    <a href="{% url 'perfil' %}" class="text-pink-500 hover:underline">Sobre el Autor</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="container mx-auto px-6 py-12 flex-grow">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer class="bg-pink-700 text-white py-4">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 2024 Psicología Digital. Nombre Apellido XX.XXX.XXX</p>
+        </div>
+    </footer>
+</body>
+</html>
