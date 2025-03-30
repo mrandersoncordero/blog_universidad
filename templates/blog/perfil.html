@@ -5,20 +5,14 @@
     <!-- Imagen de perfil -->
     <div class="flex flex-col items-center">
         <img src="{{ usuario.foto.url }}" alt="Foto de perfil" class="w-32 h-32 rounded-full border-4 border-pink-300 shadow-md">
-        <h2 class="text-2xl font-bold text-pink-800 mt-4">{{ usuario.nombre_completo }}</h2>
-        <p class="text-gray-600 text-sm">@{{ usuario.username }}</p>
+        <h2 class="text-2xl font-bold text-pink-800 mt-4">Nicole Morantes</h2>
+        <p class="text-gray-600 text-sm">C.I 27.675.036</p>
     </div>
 
     <!-- Información del usuario -->
     <div class="mt-6 space-y-4">
-        <div class="bg-pink-100 p-4 rounded-lg shadow-sm">
-            <p class="text-gray-700"><strong class="text-pink-700">📧 Correo electrónico:</strong> {{ usuario.email }}</p>
-        </div>
-        <div class="bg-purple-100 p-4 rounded-lg shadow-sm">
-            <p class="text-gray-700"><strong class="text-purple-700">🏫 Institución:</strong> {{ usuario.universidad }}</p>
-        </div>
         <div class="bg-blue-100 p-4 rounded-lg shadow-sm">
-            <p class="text-gray-700"><strong class="text-blue-700">📚 Materia:</strong> {{ usuario.materia }}</p>
+            <p class="text-gray-700"><strong class="text-blue-700">📚 expediente:</strong> HPS 231 00022</p>
         </div>
     </div>
 </div>
